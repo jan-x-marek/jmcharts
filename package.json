@@ -1,9 +1,14 @@
 {
   "name": "jmcharts",
-  "version": "0.9.0",
-  "description": "High-performance interactive charts",
+  "version": "0.9.4",
+  "description": "Javascript charting library. Fast, simple, memory-efficient.",
   "author": "Jan Marek <jan.x.marek@gmail.com>",
-  "license": "",
+  "license": "Apache-2.0",
+  "homepage": "https://jan-x-marek.github.io/jmcharts/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jan-x-marek/jmcharts"
+  },
   "keywords": [
     "chart",
     "ohlc",
@@ -35,5 +40,6 @@
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
     "test": "jest --watch"
-  }
+  },
+  "main": "build/jmcharts"
 }

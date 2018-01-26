@@ -1,0 +1,62 @@
+
+.jmc-root {}
+
+.jmc-header-1 {
+  fill: #777;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.jmc-header-2 {
+  fill: #777;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.jmc-tooltip {
+  line-height: 1;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.jmc-status-bar {
+  font-size: 12px;
+}
+
+.tick line {
+  stroke: #ccc;
+  stroke-width: 1;
+}
+
+.jmc-slider-main {
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  background-color: #ccc;
+}
+
+.jmc-slider-button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  background-color: #aaa;
+  cursor: default;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.jmc-slider-thumb {
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #777;
+  cursor: default;
+}

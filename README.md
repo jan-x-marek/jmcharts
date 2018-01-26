@@ -1,6 +1,4 @@
 # jmcharts
 Javascript charting library, fast and memory-efficient
 
-<script>
-alert("Hello! I am an alert box!!");
-</script>
+<h3>See interactive demo <a href="https://jan-x-marek.github.io/jmcharts/">HERE</a></h3>

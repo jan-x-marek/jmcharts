@@ -1,6 +1,6 @@
 {
   "name": "jmcharts",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Javascript charting library. Fast, simple, memory-efficient.",
   "author": "Jan Marek <jan.x.marek@gmail.com>",
   "license": "Apache-2.0",

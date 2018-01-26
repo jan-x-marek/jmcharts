@@ -27,18 +27,24 @@ export default class OhlcRenderer extends RendererBase {
 
       ctx.beginPath()
       ctx.moveTo(bx, bh)
-      ctx.lineTo(bx, bo)
-      ctx.lineTo(bx-lineWidth, bo)
-      ctx.lineTo(bx, bo)
-      ctx.lineTo(bx, bc)
-      ctx.lineTo(bx+lineWidth, bc)
-      ctx.lineTo(bx, bc)
       ctx.lineTo(bx, bl)
+      ctx.stroke()
+      ctx.closePath()
+      
+      ctx.beginPath()
+      ctx.moveTo(bx+lineWidth*0.5, bo)
+      ctx.lineTo(bx-lineWidth*1.5, bo)
+      ctx.stroke()
+      ctx.closePath()
+
+      ctx.beginPath()
+      ctx.moveTo(bx-lineWidth*0.5, bc)
+      ctx.lineTo(bx+lineWidth*1.5, bc)
       ctx.stroke()
       ctx.closePath()
     }
   }
-
+  
   getActualRange() {
     const min = sr.min(this.series, bar => bar[2])
     const max = sr.max(this.series, bar => bar[1])

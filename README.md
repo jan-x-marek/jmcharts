@@ -2,7 +2,7 @@
 
 Javascript charting library. Ultrafast, memory-efficient, simple.
 
-<h4>See an interactive demo <a href="https://jan-x-marek.github.io/jmcharts/">HERE</a></h4>
+#### See an interactive demo [HERE](https://jan-x-marek.github.io/jmcharts/)
 
 ## The Usecase
 
@@ -18,6 +18,9 @@ My usecase is a bit unusual. Rather than drawing a simple chart with a few dozen
 * Easy to extend - adding custom widgets, data renderers, etc.
 * Nice fluent API
 
+## Install
+``npm install jmcharts``
+
 ## Quick example
 
 
@@ -25,6 +28,4 @@ My usecase is a bit unusual. Rather than drawing a simple chart with a few dozen
 
 
 
-
-
-
+For a bit more complex example, see [the demo](https://jan-x-marek.github.io/jmcharts/) and [its source](https://github.com/jan-x-marek/jmcharts/blob/master/demo/src/demoNice.js) 

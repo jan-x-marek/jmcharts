@@ -31,9 +31,9 @@ const root = c.root('chart')
   .width(600)
   .height(400)
 
-const x = [1000,2000,3000.....]    //x-axis points
-const y1 = [42,32,40...]  //y-points
-const y2 = [24,23,33...]  // another y-points
+const x = [1000,2000,5000,...]  //x-axis points
+const y1 = [42,32,40,...]       //y-points
+const y2 = [24,23,33,...]       //another y-points
 
 //Series is just a wrapper of x and y with some utility methods for data access
 const series1 = c.series.series(x,y1)
